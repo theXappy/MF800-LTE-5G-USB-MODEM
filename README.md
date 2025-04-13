@@ -5,6 +5,7 @@
 
 ## Intro
 I bought this "LTE '5G' USB Dongle WiFi" from AliExpress around 2024.  
+Despite the branding, this stick can only use 3G/4g (and even that's questionable). 5G logic/settings are no where to be seen.  
 After playing with it for a while, I decied to document all the quirks/tricks I've learned.  
 SoC seems to be: `Qualcomm Snapdragon 410 (MSM8916)`  
 USB Hardware IDs: `VID_05C6 PID_90B6`  
