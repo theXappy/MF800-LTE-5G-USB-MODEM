@@ -27,7 +27,11 @@ Part=206  version=1.0
 
 ## Table of Contents
 ### 🌐 Web App & ADB
-1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-web-app--adb)
+1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-web-app--adb) with one note:  
+  a. The APK for MF800 is slightly different. Specifically the ADB (and Diag, AT) enablement command (2001) invokes an AT command locally instead of running `setprop persist.sys.usb.config ...`)  
+     The command is `AT+USB=1,268968726`. The second parameter is mandatory and I think it serves as a "password" to discourage some kind of attack.  
+     Not sure which attack, since AT commands can't be issued from a PC *before* it is run, but maybe I'm missing another vector.
+
 
 ### ☎️ Modem
 1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem)
