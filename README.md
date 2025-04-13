@@ -27,13 +27,13 @@ Part=206  version=1.0
 
 ## Table of Contents
 ### 🌐 Web App & ADB
-1. See [https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-web-app--adb](UZ801-LTE-USB-MODEM)
+1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-web-app--adb)
 
 ### ☎️ Modem
-1. See [https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem](UZ801-LTE-USB-MODEM)
+1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem)
 
 ### 📱Screen Control
-1. See [https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#screen-control](UZ801-LTE-USB-MODEM)
+1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#screen-control)
 
 ### 🪄 Firmware Backup/Flashing
-1. See [https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-firmware-backupflashing](UZ801-LTE-USB-MODEM)
+1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-firmware-backupflashing)
