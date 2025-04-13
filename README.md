@@ -35,6 +35,17 @@ Part=206  version=1.0
 
 ### ☎️ Modem
 1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem)
+2. The webserver APK tells us there's another way: a shell command `at_modem <command>`  
+   For example, `adb shell at_modem ATI` will invoke the `ATI` command. Output looks like this (note the first line, not part of AT protocol):
+```
+main,155: output=
+Manufacturer: QUALCOMM INCORPORATED
+Model: 4094
+Revision: MF800_V2.0_21_V01R01B05  1  [Sep 07 2015 23:00:00]
+SVN: 01
+IMEI: +CGSN:860018046000213
++GCAP: +CGSM
+```
 
 ### 📱Screen Control
 1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#screen-control)
