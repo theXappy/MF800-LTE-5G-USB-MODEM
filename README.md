@@ -35,8 +35,9 @@ Part=206  version=1.0
 
 
 ### ☎️ Modem
-1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem)
-2. The webserver APK tells us there's another way: a shell command `at_modem <command>`  
+1. To get the modem's 'AT COM port' working, See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#%EF%B8%8F-modem)
+2. The list of supported AT commands differs, This models command [Modem drivers for Windows + AT Commands communication](Modem_AT_Commands.md).
+3. The webserver's APK also tells us there's another way to reach the AT interface: via a shell command `at_modem <command>`  
    For example, `adb shell at_modem ATI` will invoke the `ATI` command. Output looks like this (note the first line, not part of AT protocol):
 ```
 main,155: output=
