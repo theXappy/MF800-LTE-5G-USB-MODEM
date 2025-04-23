@@ -62,7 +62,8 @@ Mapping, assuming the USB connect points to the right:
 * Top Right: VCC
 * Bottom Left: TX
 * Bottom Right: RX  
-![image](https://github.com/user-attachments/assets/4790d8e8-5022-4936-a9a5-a81c8ff3d3f2)  
+![image](https://github.com/user-attachments/assets/4790d8e8-5022-4936-a9a5-a81c8ff3d3f2)
+
 Connect using default parameters in PuTTY except:
 * Session -> Baud Rate: 115200
 * Connection -> Serial -> Flow Control: None
