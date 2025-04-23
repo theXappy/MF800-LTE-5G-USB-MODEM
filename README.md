@@ -77,4 +77,4 @@ In comparison, ADB shell defaults to the `root` user and these values:
 root@msm8916_32_512:/ # id
 uid=0(root) gid=0(root) context=u:r:shell:s0
 ```
-Regardless, using `su root` from the `shell` user just switches to root ¯\\\_(ツ)_/¯.
+Anyway, using `su root` from the `shell` user just switches to root ¯\\\_(ツ)_/¯.
