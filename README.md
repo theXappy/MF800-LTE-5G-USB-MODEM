@@ -54,3 +54,26 @@ IMEI: +CGSN:860018046000213
 
 ### 🪄 Firmware Backup/Flashing
 1. See [UZ801-LTE-USB-MODEM](https://github.com/theXappy/UZ801-LTE-USB-MODEM?tab=readme-ov-file#-firmware-backupflashing)
+
+### ⚡ UART
+UART pins are arrange in a rectangle, on the SIM slot side of the device.
+Mapping, assuming the USB connect points to the right:  
+* Top Left: GND
+* Top Right: VCC
+* Bottom Left: TX
+* Bottom Right: RX  
+![image](https://github.com/user-attachments/assets/4790d8e8-5022-4936-a9a5-a81c8ff3d3f2)
+Connect using default parameters in PuTTY except:
+* Session -> Baud Rate: 115200
+* Connection -> Serial -> Flow Control: None
+You'll be greated with a shell, the user is `shell` and has the following `id` values:
+```
+shell@msm8916_32_512:/ $ id
+uid=2000(shell) gid=1007(log) context=u:r:init_shell:s0
+```
+In comparison, ADB shell defaults to the `root` user and these values:
+```
+root@msm8916_32_512:/ # id
+uid=0(root) gid=0(root) context=u:r:shell:s0
+```
+Regardless, using `su root` from the `shell` user just switches to root ¯\_(ツ)_/¯.
