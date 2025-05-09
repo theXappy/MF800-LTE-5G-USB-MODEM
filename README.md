@@ -57,7 +57,7 @@ IMEI: +CGSN:860018046000213
 
 ### ⚡ UART
 UART pins are arrange in a rectangle, on the SIM slot side of the device.
-Mapping, assuming the USB connect points to the right:  
+Mapping, assuming the USB connector points to the right:  
 * Top Left: GND
 * Top Right: VCC
 * Bottom Left: TX
